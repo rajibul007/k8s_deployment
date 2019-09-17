@@ -5,6 +5,7 @@ metadata:
   labels:
     app: myweb
   name: myweb
+  namespace: jenkins
 spec:
   replicas: 1
   selector:
@@ -27,6 +28,7 @@ metadata:
   labels:
     app: myweb
   name: myweb
+  namespace: jenkins
 spec:
   ports:
   - port: 80
