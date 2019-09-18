@@ -17,7 +17,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: nginx
+      - image: dpev007.innovate.ibm.com:5000/rajibul/myweb:1
         imagePullPolicy: Always
         name: myweb
 
@@ -32,6 +32,7 @@ metadata:
 spec:
   ports:
   - port: 80
+    type: NodePort
     protocol: TCP
     targetPort: 80
   selector:
