@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "dpev007.innovate.ibm.com:5000/justme/myweb"
+    registry = "dpev007.innovate.ibm.com:5000/rajibul/myweb"
     dockerImage = ""
   }
 
