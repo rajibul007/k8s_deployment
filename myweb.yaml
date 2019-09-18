@@ -17,7 +17,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: dpev007.innovate.ibm.com:5000/rajibul/myweb:1
+      - image: dpev007.innovate.ibm.com:5000/rajibul/myweb
         imagePullPolicy: Always
         name: myweb
 
