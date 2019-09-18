@@ -36,4 +36,4 @@ spec:
     targetPort: 80
   selector:
     app: myweb
-  type: nodePort
+  type: NodePort
