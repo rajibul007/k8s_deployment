@@ -17,7 +17,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: dpev007.innovate.ibm.com:5000/rajibul/myweb:201
+      - image: dpev007.innovate.ibm.com:5000/rajibul/myweb:202
         imagePullPolicy: Always
         name: myweb
 
@@ -32,6 +32,7 @@ metadata:
 spec:
   ports:
   - port: 80
+    nodePort: 30022
     protocol: TCP
     targetPort: 80
   selector:
