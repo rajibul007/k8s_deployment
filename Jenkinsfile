@@ -18,7 +18,7 @@ pipeline {
     stage('Build image') {
       steps{
         script {
-          dockerImage = docker.build registry + ":200"
+          dockerImage = docker.build registry + ":201"
         }
       }
     }
